@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const queuing = require("./queue.js");
-const dbQueue = new queuing();
+const dbQueue = new queuing();  
 var keysolution = 'Value Database Loaded | For Support Or Help Join Our Discord https://discord.gg/yv3s3b97Sn';
 var index = require('../../index');
 if(!index.DB_NAME) {
