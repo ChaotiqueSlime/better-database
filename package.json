@@ -1,5 +1,5 @@
 {
-  "name": "better-database",
+  "name": "@my-org/better-database",
   "version": "1.4.1",
   "description": "A Awesome Database Package For Discord.js And More!!!",
   "main": "index.js",
@@ -12,6 +12,9 @@
   "dependencies": {
     "sequelize": "^5.18.0",
     "sqlite3": "^4.1.0"
+  },
+  "publishConfig": {
+    "registry":"git://github.com/ChaotiqueSlime/better-database.git"
   },
   "dist-tags": { "latest": "1.4.1" },
   "versions": [
